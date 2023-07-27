@@ -1,0 +1,54 @@
+# Sample YAML Configuration
+
+# Comments in YAML start with the '#' symbol
+
+# Scalars - strings, numbers, booleans, and null
+name: John Doe
+age: 30
+is_student: true
+favorite_color: null
+
+# Lists - denoted by '-'
+fruits:
+  - apple
+  - banana
+  - orange
+
+# Nested Lists
+numbers:
+  - 1
+  - 2
+  - 3
+  - - 4
+    - 5
+
+# Dictionaries (key-value pairs)
+person:
+  name: Jane Smith
+  age: 25
+  city: New York
+
+# Nested Dictionaries
+user:
+  username: john_doe
+  address:
+    street: 123 Main St
+    city: Anytown
+    country: USA
+
+# Multi-line strings (using '>')
+multiline_text: >
+  This is a multi-line string in YAML.
+  It preserves the line breaks.
+
+# Inline dictionaries and lists
+inline_dict: { key1: value1, key2: value2 }
+inline_list: [ item1, item2, item3 ]
+
+# YAML anchors and aliases
+original: &ref1 { name: John, age: 30 }
+copy: *ref1
+
+# YAML allows for complex data structures with nesting and references.
+
+# Note: YAML is sensitive to indentation and uses spaces (not tabs) for indentation.
