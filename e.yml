@@ -49,6 +49,6 @@ inline_list: [ item1, item2, item3 ]
 original: &ref1 { name: John, age: 30 }
 copy: *ref1
 
-# YAML allows for complex data structures with nesting and references.
+# YAML allows for complex data structures with nesting and references. yes
 
 # Note: YAML is sensitive to indentation and uses spaces (not tabs) for indentation.
