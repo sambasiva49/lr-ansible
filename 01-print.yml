@@ -3,4 +3,4 @@
   tasks:
     - name: print my name
       ansible.builtin.debug:
-      mes: sambasiva
+      msg: sambasiva
