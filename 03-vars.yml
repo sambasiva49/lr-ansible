@@ -13,3 +13,12 @@
  #quotes are mandotery if values starts with variables
  #msg: {{}} this reqires quoting
  #msg: URL {{}} this is not require quoting
+
+- name: demo on task level
+  hosts: all
+  tasks:
+    - name: print URL
+      ansible.builtin.debug:
+        msg: URL {{ URL }}
+        vars:
+          URL: www.samba.com
