@@ -30,3 +30,8 @@
         msg: URL {{ URL }}
       vars:
           URL: www.samba.com
+
+- name: vaiables from the roles
+  hosts: all
+  roles:
+    - sample

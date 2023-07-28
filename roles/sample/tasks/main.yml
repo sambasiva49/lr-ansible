@@ -2,5 +2,10 @@
   ansible.builtin.debug:
     msg: hello from rolee
 
+- name: print variable from role
+  ansible.builtin.debug:
+    msg: URL {{ URL }}
+
+
 
 
