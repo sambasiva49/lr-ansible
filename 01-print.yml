@@ -1,4 +1,4 @@
-- name: print sambasiva
+- name: demo sambasiva
   hosts: all
   tasks:
     - name: print sambasiva
