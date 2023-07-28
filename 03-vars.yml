@@ -1,5 +1,5 @@
 - name: demo on play level variables
-  hosts: all
+  # hosts: all
   vars:
     URL: play.example.com
   tasks:
