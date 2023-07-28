@@ -1,6 +1,8 @@
 - name: demo sambasiva
   hosts: all
   tasks:
-    - name: print my name
+    - name: print hello
       ansible.builtin.debug:
-      msg: sambasiva
+      msg: hello
+
+
