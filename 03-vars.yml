@@ -20,5 +20,5 @@
     - name: print URL
       ansible.builtin.debug:
         msg: URL {{ URL }}
-        vars:
+      vars:
           URL: www.samba.com
