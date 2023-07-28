@@ -14,6 +14,14 @@
  #msg: {{}} this reqires quoting
  #msg: URL {{}} this is not require quoting
 
+- name: lodes variables from file
+  hosts: all
+  vars_files:
+    - samba.yml
+  tasks:
+      - name: print URL
+        ansible.builtin.debug:
+          msg: URL {{ URL }}
 - name: demo on task level
   hosts: all
   tasks:
